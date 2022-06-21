@@ -3,7 +3,7 @@ pipeline {
   stages {
         stage('Checkout'){
             steps{
-                git 'https://github.com/jakob8001/fooproject.git'
+                git 'https://github.com/DawidChec/JenkinsLab.git'
             }
         }
     stage('Build') {
